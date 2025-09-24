@@ -1,0 +1,22 @@
+# okutama.yaml
+# path: dataset_yolo  # root of your dataset
+path: C:\Users\sande\OneDrive\Desktop\IITTP\MTP\dataset_yolo
+train: images/train
+val: images/val
+test: images/test   # optional
+
+# Classes (make sure order matches how you mapped YOLO IDs)
+names:
+  0: Handshaking
+  1: Hugging
+  2: Reading
+  3: Drinking
+  4: PushingPulling
+  5: Carrying
+  6: Calling
+  7: Running
+  8: Walking
+  9: Lying
+  10: Sitting
+  11: Standing
+  12: NoneInteraction
